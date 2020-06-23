@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 
 import PrimarySelection from '../../organisms/PrimarySelection'
+import SearchForm from '../../organisms/SearchForm'
 
 class SearchPage extends Component {
 
@@ -9,7 +10,7 @@ class SearchPage extends Component {
 
             <div>
                 <PrimarySelection />
-                <h1>Página de Busca</h1>
+                <SearchForm />
             </div>
         )
     }

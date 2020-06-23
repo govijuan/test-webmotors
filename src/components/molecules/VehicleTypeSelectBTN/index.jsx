@@ -4,10 +4,10 @@ import VehicleTypeSelectBTNStyles from './VehicleTypeSelectBTN.styles'
 import VehicleIcon from '../../atoms/VehicleIcon'
 import SelectBuyTXT from '../../atoms/SelectBuyTXT'
 
-const VehicleTypeSelectBTN = ({}) => {
-    return  <VehicleTypeSelectBTNStyles>
-                <VehicleIcon />
-                <SelectBuyTXT vehicleTypeTxt='Carros'/>
+const VehicleTypeSelectBTN = ({vehicleTypeTxt, type}) => {
+    return  <VehicleTypeSelectBTNStyles >
+                <VehicleIcon type={type} />
+                <SelectBuyTXT vehicleTypeTxt={vehicleTypeTxt} />
             </VehicleTypeSelectBTNStyles>
 };
 
